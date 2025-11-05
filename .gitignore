@@ -1,0 +1,13 @@
+.idea
+myenv/
+
+# Ignore Python cache and other temp files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore environment and system files
+.env
+*.log
+.DS_Store
