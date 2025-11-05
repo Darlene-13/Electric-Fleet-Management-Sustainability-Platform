@@ -1,3 +1,9 @@
+from flask_sqlalchemy import SQLAlchemy
+from datetime import datetime
+import json
+
+db = SQLAlchemy()
+
 class Driver(db.Model):
     __tablename__ = 'drivers'
 
